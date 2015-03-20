@@ -2,6 +2,7 @@
 
 ## makeCacheMatrix is a function that outputs an object that includes the inverse of the matrix 
 
+
 makeCacheMatrix <- function(x = matrix()) {
  m <- NULL
   set <- function(y) {
@@ -17,7 +18,9 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
+
 ## cacheSolve is a function that has an input of the special matrix shown by makeCacheMatrix. It has an output of the inverse of the matrix in question (if the matrix has not been changed). 
+
 
 cacheSolve <- function(x, ...) {
        m <- x$getinv()
